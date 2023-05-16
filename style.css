@@ -1,8 +1,60 @@
 body{
-    padding: 0;
+    padding: 100px;
     margin: 0;
     background-color: black;
+    background-image: url(./Imgaes/bg.PNG);
+    font-size: 20px;
+    font-family: 'Kredit Front', sans-serif;
+    text-transform: uppercase;
+    font-size: 250%;
+    
 }
 h1{
     color: white;
 }
+body a {
+    color: #999;
+    text-decoration: none;
+  }
+  
+  .fancy-list {
+    list-style: none;
+    padding: 0.5em;
+    margin: 0;
+  }
+  
+  .fancy-list > li {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #333;
+    line-height: 1;
+  }
+  
+  
+  .fancytexthover {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .fancytexthover:hover .textwrapper {
+    width: 100%;
+  }
+  
+  .textwrapper {
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    width: 0;
+    display: inline-block;
+    white-space: pre;
+    color: #fff;
+    transition: width 500ms;
+    border-bottom: 1px solid;
+    padding-bottom: 0.15em;
+  }
+  
+  .textwrapper a {
+    color: inherit;
+  }
