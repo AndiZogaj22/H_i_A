@@ -9,8 +9,25 @@ body{
     text-transform: uppercase;
     font-size: 250%;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
+
+::-webkit-scrollbar-track{
+	border: 5px solid black;
+	 border-color: transparent;
+	background-color: black;
+  background: transparent;
+}
+
+::-webkit-scrollbar{
+	width: 15px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: #7e0e0e;
+	border-radius: 10px;
+}
+
 h1{
     color: white;
 }
@@ -82,4 +99,11 @@ body a {
     margin-right: auto;
     color: white;
 margin-bottom: auto;
+  }
+  .message{
+    width: 100%;
+    height: 80vh;
+  }
+  form{
+    color: #fff;
   }
