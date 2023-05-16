@@ -1,13 +1,15 @@
 body{
-    padding: 100px;
-    margin: 0;
+    padding: 1%;
+   margin: 0;
+    margin-bottom: 100px;
     background-color: black;
     background-image: url(./Imgaes/bg.PNG);
     font-size: 20px;
     font-family: 'Kredit Front', sans-serif;
     text-transform: uppercase;
     font-size: 250%;
-    
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 h1{
     color: white;
@@ -61,6 +63,7 @@ body a {
   nav{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: auto;
   }
   nav h1{
     margin-right: auto;
@@ -70,6 +73,13 @@ body a {
     width: 350px;
     height: 350px;
     margin-bottom: auto;
-        margin-right: auto;
+    margin-left: auto;
 
+  }
+  .rights  {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    color: white;
+margin-bottom: auto;
   }
