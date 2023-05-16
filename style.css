@@ -58,3 +58,18 @@ body a {
   .textwrapper a {
     color: inherit;
   }
+  nav{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  nav h1{
+    margin-right: auto;
+    margin-top: 150px;
+  }
+  nav img{
+    width: 350px;
+    height: 350px;
+    margin-bottom: auto;
+        margin-right: auto;
+
+  }
